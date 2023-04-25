@@ -6459,7 +6459,7 @@ def factor(f, *gens, deep=False, **args):
 
     There two modes implemented: symbolic and formal. If ``f`` is not an
     instance of :class:`Poly` and generators are not specified, then the
-    former mode is used. Otherwise, the formal mode is used.
+    symbolic mode is used. Otherwise, the formal mode is used.
 
     In symbolic mode, :func:`factor` will traverse the expression tree and
     factor its components without any prior expansion, unless an instance
